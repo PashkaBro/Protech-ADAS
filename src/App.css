@@ -1,38 +1,70 @@
+
 .App {
-  text-align: center;
+    background-image: url("https://www.qcdautomotive.co.uk/wp-content/uploads/2018/07/adas-calibration.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    color: white;
+    box-sizing: content-box;
+    margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    text-align: right;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.FooterLinks {
+    margin: 10px;
+    color: rgba(255, 255, 255, .5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ContentSelect {
+  display: inline;
+  position: center;
+  margin: 10px;
+  width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.Content {
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: 25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-lg {
+margin: 10px;
+
 }
+
+.Year {
+    width: 100px;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+
+}
+
+.breadcrumb-item {
+    display: inline;
+    text-align: left !important;
+    margin-right: 100px;
+}
+
+.id1 {
+    text-align: left;
+}
+
+/*/////////////////////////////*/
